@@ -11,14 +11,16 @@ and closes shaft doors and causes humans to fall into the elevator shaft :(
 Your goal is to implement such a controller, save human lives and last, but not least, learn how to
 program state machines in Java!
 
-TODO: Add animated gif screenshots
+| Random controller (included)   | Your Solution   |   |   |   |
+|:-:|:-:|
+|![Random Conroller](img/random-controller.gif)| Best solution will be published here | 
 
 The program is created for educational purposes to encourage everyone who
 learns software engineers to practice with building state machines.
 
 ## Instructions for Ubuntu 18 and IntelliJ IDEA:
 
-1. Install JDK 8, JavaFX and git
+1. Install JDK 8, Java      FX and git
 ```bash
 sudo apt -y install openjdk-8-jdk openjfx git
 ```
