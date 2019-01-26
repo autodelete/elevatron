@@ -8,10 +8,10 @@ The simulator contains everything except an elevator controller implemented.
 The controller which is included into a package - randomly blinks lights, opens 
 and closes shaft doors and causes humans to fall into the elevator shaft :(
 
-TODO: Add animated gid screenshots
-
 Your goal is to implement such a controller, save human lives and last, but not least, learn how to
 program state machines in Java!
+
+TODO: Add animated gif screenshots
 
 The program is created for educational purposes to encourage everyone who
 learns software engineers to practice with building state machines.
