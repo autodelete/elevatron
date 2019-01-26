@@ -13,7 +13,7 @@ program state machines in Java!
 
 Random controller (included)  | Your solution
 :---------------------------: | :------------:
-<img src="img/random-controller.gif" alt="Random controller" width="200"> | Best solution will be published here! 
+<img src="img/random-controller.gif" alt="Random controller" width="400"> | Best solution will be published here! 
 
 
 The program is created for educational purposes to encourage everyone who
