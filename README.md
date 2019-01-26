@@ -55,7 +55,7 @@ git push
 ## Have issues?
 Submit a bug or question to https://github.com/autodelete/elevatron/issues
 
-## Like the idea and Want to contribute?
+## Like the idea and want to contribute?
 You're more than welcome! Please send your pull requests!
 Areas needing improvement:
  - Cleaner structure of JavaFX/UI code
