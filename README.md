@@ -17,7 +17,6 @@ The program is created for educational purposes to encourage everyone who
 learns software engineers to practice with building state machines.
 
 ## Instructions for Ubuntu 18 and IntelliJ IDEA:
-Instructions for Ubuntu 18 and:
 
 1. Install JDK 8, JavaFX and git
 ```bash
