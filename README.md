@@ -52,11 +52,11 @@ git commit
 git push
 ```
 
-## Have issues ?
-Submit a bug https://github.com/autodelete/elevatron/issues
+## Have issues?
+Submit a bug or question to https://github.com/autodelete/elevatron/issues
 
-## Want to contribute?
+## Like the idea and Want to contribute?
 You're more than welcome! Please send your pull requests!
 Areas needing improvement:
+ - Cleaner structure of JavaFX/UI code
  - Adding realistic graphics
- 
