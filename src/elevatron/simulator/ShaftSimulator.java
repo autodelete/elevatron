@@ -39,6 +39,12 @@ public class ShaftSimulator implements Shaft {
     }
 
     @Override
+    public void stopShaftMotor() {
+        this.verticalAcceleration = 0.0;
+        this.verticalVelocity = 0.0;
+    }
+
+    @Override
     public Door[] getDoors() {
         return doors;
     }
