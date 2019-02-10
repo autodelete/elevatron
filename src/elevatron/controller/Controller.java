@@ -61,13 +61,17 @@ public class Controller implements ClockNotifications {
     public void onAlarmTriggered() {
         for (int eId = 0; eId < this.numElevators; eId++) {
             Elevator elevator = this.system.getElevators()[eId];
-
             Shaft shaft = elevator.getShaft();
             Cabin cabin = elevator.getCabin();
             Door cabinDoor = cabin.getDoor();
 
             int fId = this.currFloorIdx[eId];
 
+            /** Big remark - this controller doesn't subscribe for
+             * onPressed event on the floor button.
+             * Here we simply start with opening the door on the initial floor.
+             * Next version should start with waiting for human to press button first.
+             **/
             this.shaftDoors[fId][eId] = shaft.getDoors()[fId];
             if (this.firstIteration[eId]) {
                 this.shaftDoors[fId][eId].startOpening();
