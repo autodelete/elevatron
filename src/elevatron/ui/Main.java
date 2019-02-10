@@ -29,6 +29,8 @@ import java.util.Random;
 import java.util.stream.IntStream;
 
 public class Main extends Application {
+    private static final boolean USE_ORIGINAL_RANDOM_CONTROLLER = false;
+
     private static final double HUMAN_WIDTH = 20;
     private static final double HUMAN_HEIGHT = 60;
     public static final Color HUMAN_STROKE = Color.CYAN;
@@ -36,7 +38,7 @@ public class Main extends Application {
     private static final double HUMAN_STROKE_WIDTH = 2;
     private static int NUM_FLOORS=7;
     private static int NUM_ELEVATORS=2;
-    private static int NUM_HUMANS=10;
+    private static int NUM_HUMANS=15;
 
 
     public static final int FPS = 20;
@@ -100,7 +102,12 @@ public class Main extends Application {
         primaryStage.heightProperty().addListener((obs, oldVal, newVal) -> {
             onResize(root, primaryStage.getWidth(), newVal.doubleValue());
         });
-        new elevatron.controller.Controller(simulator);
+
+        if (USE_ORIGINAL_RANDOM_CONTROLLER) {
+            new elevatron.controller.OriginalRandomController(simulator);
+        } else {
+            new elevatron.controller.Controller(simulator);
+        }
     }
 
     private void onResize(Pane root, double width, double height) {

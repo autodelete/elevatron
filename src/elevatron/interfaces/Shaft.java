@@ -12,4 +12,7 @@ public interface Shaft {
 
     /** Subscribe to receive notifications from the shaft hardware. */
     void subscribe(ShaftNotifications subscriber);
+
+    /** Stops shaft. TODO: possible with controlShaftMotor and acceleration only? */
+    void stopShaftMotor();
 }
