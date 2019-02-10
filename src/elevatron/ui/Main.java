@@ -35,8 +35,8 @@ public class Main extends Application {
     public static final Color HUMAN_FILL = Color.TRANSPARENT;
     private static final double HUMAN_STROKE_WIDTH = 2;
     private static int NUM_FLOORS=7;
-    private static int NUM_ELEVATORS=2;
-    private static int NUM_HUMANS=10;
+    private static int NUM_ELEVATORS=3;
+    private static int NUM_HUMANS=30;
 
 
     public static final int FPS = 20;
